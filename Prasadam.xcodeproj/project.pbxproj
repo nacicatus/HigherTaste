@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8405EE21C2A8B2D009657CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405EE11C2A8B2D009657CB /* AppDelegate.swift */; };
+		F8405EE41C2A8B2D009657CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405EE31C2A8B2D009657CB /* ViewController.swift */; };
+		F8405EE71C2A8B2D009657CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8405EE51C2A8B2D009657CB /* Main.storyboard */; };
+		F8405EE91C2A8B2D009657CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8405EE81C2A8B2D009657CB /* Assets.xcassets */; };
+		F8405EEC1C2A8B2D009657CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8405EEA1C2A8B2D009657CB /* LaunchScreen.storyboard */; };
+		F8405EF71C2A8B2D009657CB /* PrasadamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405EF61C2A8B2D009657CB /* PrasadamTests.swift */; };
+		F8405F021C2A8B2D009657CB /* PrasadamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405F011C2A8B2D009657CB /* PrasadamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8405EF31C2A8B2D009657CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8405ED61C2A8B2D009657CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8405EDD1C2A8B2D009657CB;
+			remoteInfo = Prasadam;
+		};
+		F8405EFE1C2A8B2D009657CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8405ED61C2A8B2D009657CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8405EDD1C2A8B2D009657CB;
+			remoteInfo = Prasadam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8405EDE1C2A8B2D009657CB /* Prasadam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prasadam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8405EE11C2A8B2D009657CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8405EE31C2A8B2D009657CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8405EE61C2A8B2D009657CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8405EE81C2A8B2D009657CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8405EEB1C2A8B2D009657CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8405EED1C2A8B2D009657CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8405EF21C2A8B2D009657CB /* PrasadamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrasadamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8405EF61C2A8B2D009657CB /* PrasadamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrasadamTests.swift; sourceTree = "<group>"; };
+		F8405EF81C2A8B2D009657CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8405EFD1C2A8B2D009657CB /* PrasadamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrasadamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8405F011C2A8B2D009657CB /* PrasadamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrasadamUITests.swift; sourceTree = "<group>"; };
+		F8405F031C2A8B2D009657CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8405EDB1C2A8B2D009657CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8405EEF1C2A8B2D009657CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8405EFA1C2A8B2D009657CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8405ED51C2A8B2D009657CB = {
+			isa = PBXGroup;
+			children = (
+				F8405EE01C2A8B2D009657CB /* Prasadam */,
+				F8405EF51C2A8B2D009657CB /* PrasadamTests */,
+				F8405F001C2A8B2D009657CB /* PrasadamUITests */,
+				F8405EDF1C2A8B2D009657CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8405EDF1C2A8B2D009657CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8405EDE1C2A8B2D009657CB /* Prasadam.app */,
+				F8405EF21C2A8B2D009657CB /* PrasadamTests.xctest */,
+				F8405EFD1C2A8B2D009657CB /* PrasadamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8405EE01C2A8B2D009657CB /* Prasadam */ = {
+			isa = PBXGroup;
+			children = (
+				F8405EE11C2A8B2D009657CB /* AppDelegate.swift */,
+				F8405EE31C2A8B2D009657CB /* ViewController.swift */,
+				F8405EE51C2A8B2D009657CB /* Main.storyboard */,
+				F8405EE81C2A8B2D009657CB /* Assets.xcassets */,
+				F8405EEA1C2A8B2D009657CB /* LaunchScreen.storyboard */,
+				F8405EED1C2A8B2D009657CB /* Info.plist */,
+			);
+			path = Prasadam;
+			sourceTree = "<group>";
+		};
+		F8405EF51C2A8B2D009657CB /* PrasadamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8405EF61C2A8B2D009657CB /* PrasadamTests.swift */,
+				F8405EF81C2A8B2D009657CB /* Info.plist */,
+			);
+			path = PrasadamTests;
+			sourceTree = "<group>";
+		};
+		F8405F001C2A8B2D009657CB /* PrasadamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8405F011C2A8B2D009657CB /* PrasadamUITests.swift */,
+				F8405F031C2A8B2D009657CB /* Info.plist */,
+			);
+			path = PrasadamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8405EDD1C2A8B2D009657CB /* Prasadam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8405F061C2A8B2D009657CB /* Build configuration list for PBXNativeTarget "Prasadam" */;
+			buildPhases = (
+				F8405EDA1C2A8B2D009657CB /* Sources */,
+				F8405EDB1C2A8B2D009657CB /* Frameworks */,
+				F8405EDC1C2A8B2D009657CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prasadam;
+			productName = Prasadam;
+			productReference = F8405EDE1C2A8B2D009657CB /* Prasadam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8405EF11C2A8B2D009657CB /* PrasadamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8405F091C2A8B2D009657CB /* Build configuration list for PBXNativeTarget "PrasadamTests" */;
+			buildPhases = (
+				F8405EEE1C2A8B2D009657CB /* Sources */,
+				F8405EEF1C2A8B2D009657CB /* Frameworks */,
+				F8405EF01C2A8B2D009657CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8405EF41C2A8B2D009657CB /* PBXTargetDependency */,
+			);
+			name = PrasadamTests;
+			productName = PrasadamTests;
+			productReference = F8405EF21C2A8B2D009657CB /* PrasadamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8405EFC1C2A8B2D009657CB /* PrasadamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8405F0C1C2A8B2D009657CB /* Build configuration list for PBXNativeTarget "PrasadamUITests" */;
+			buildPhases = (
+				F8405EF91C2A8B2D009657CB /* Sources */,
+				F8405EFA1C2A8B2D009657CB /* Frameworks */,
+				F8405EFB1C2A8B2D009657CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8405EFF1C2A8B2D009657CB /* PBXTargetDependency */,
+			);
+			name = PrasadamUITests;
+			productName = PrasadamUITests;
+			productReference = F8405EFD1C2A8B2D009657CB /* PrasadamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8405ED61C2A8B2D009657CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Saurabh Sikka";
+				TargetAttributes = {
+					F8405EDD1C2A8B2D009657CB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XSB6YPP53Z;
+					};
+					F8405EF11C2A8B2D009657CB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XSB6YPP53Z;
+						TestTargetID = F8405EDD1C2A8B2D009657CB;
+					};
+					F8405EFC1C2A8B2D009657CB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XSB6YPP53Z;
+						TestTargetID = F8405EDD1C2A8B2D009657CB;
+					};
+				};
+			};
+			buildConfigurationList = F8405ED91C2A8B2D009657CB /* Build configuration list for PBXProject "Prasadam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8405ED51C2A8B2D009657CB;
+			productRefGroup = F8405EDF1C2A8B2D009657CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8405EDD1C2A8B2D009657CB /* Prasadam */,
+				F8405EF11C2A8B2D009657CB /* PrasadamTests */,
+				F8405EFC1C2A8B2D009657CB /* PrasadamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8405EDC1C2A8B2D009657CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8405EEC1C2A8B2D009657CB /* LaunchScreen.storyboard in Resources */,
+				F8405EE91C2A8B2D009657CB /* Assets.xcassets in Resources */,
+				F8405EE71C2A8B2D009657CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8405EF01C2A8B2D009657CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8405EFB1C2A8B2D009657CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8405EDA1C2A8B2D009657CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8405EE41C2A8B2D009657CB /* ViewController.swift in Sources */,
+				F8405EE21C2A8B2D009657CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8405EEE1C2A8B2D009657CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8405EF71C2A8B2D009657CB /* PrasadamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8405EF91C2A8B2D009657CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8405F021C2A8B2D009657CB /* PrasadamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8405EF41C2A8B2D009657CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8405EDD1C2A8B2D009657CB /* Prasadam */;
+			targetProxy = F8405EF31C2A8B2D009657CB /* PBXContainerItemProxy */;
+		};
+		F8405EFF1C2A8B2D009657CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8405EDD1C2A8B2D009657CB /* Prasadam */;
+			targetProxy = F8405EFE1C2A8B2D009657CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8405EE51C2A8B2D009657CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8405EE61C2A8B2D009657CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8405EEA1C2A8B2D009657CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8405EEB1C2A8B2D009657CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8405F041C2A8B2D009657CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8405F051C2A8B2D009657CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8405F071C2A8B2D009657CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prasadam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.Prasadam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8405F081C2A8B2D009657CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prasadam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.Prasadam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8405F0A1C2A8B2D009657CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrasadamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.PrasadamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prasadam.app/Prasadam";
+			};
+			name = Debug;
+		};
+		F8405F0B1C2A8B2D009657CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrasadamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.PrasadamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prasadam.app/Prasadam";
+			};
+			name = Release;
+		};
+		F8405F0D1C2A8B2D009657CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrasadamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.PrasadamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Prasadam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8405F0E1C2A8B2D009657CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrasadamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.PrasadamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Prasadam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8405ED91C2A8B2D009657CB /* Build configuration list for PBXProject "Prasadam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8405F041C2A8B2D009657CB /* Debug */,
+				F8405F051C2A8B2D009657CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8405F061C2A8B2D009657CB /* Build configuration list for PBXNativeTarget "Prasadam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8405F071C2A8B2D009657CB /* Debug */,
+				F8405F081C2A8B2D009657CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8405F091C2A8B2D009657CB /* Build configuration list for PBXNativeTarget "PrasadamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8405F0A1C2A8B2D009657CB /* Debug */,
+				F8405F0B1C2A8B2D009657CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8405F0C1C2A8B2D009657CB /* Build configuration list for PBXNativeTarget "PrasadamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8405F0D1C2A8B2D009657CB /* Debug */,
+				F8405F0E1C2A8B2D009657CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8405ED61C2A8B2D009657CB /* Project object */;
+}
