@@ -14,6 +14,8 @@
 		F8405EEC1C2A8B2D009657CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8405EEA1C2A8B2D009657CB /* LaunchScreen.storyboard */; };
 		F8405EF71C2A8B2D009657CB /* PrasadamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405EF61C2A8B2D009657CB /* PrasadamTests.swift */; };
 		F8405F021C2A8B2D009657CB /* PrasadamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405F011C2A8B2D009657CB /* PrasadamUITests.swift */; };
+		F8405F101C2A8BCE009657CB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405F0F1C2A8BCE009657CB /* Recipe.swift */; };
+		F8405F121C2A8E7F009657CB /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8405F111C2A8E7F009657CB /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F8405EFD1C2A8B2D009657CB /* PrasadamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrasadamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8405F011C2A8B2D009657CB /* PrasadamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrasadamUITests.swift; sourceTree = "<group>"; };
 		F8405F031C2A8B2D009657CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8405F0F1C2A8BCE009657CB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F8405F111C2A8E7F009657CB /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				F8405EE11C2A8B2D009657CB /* AppDelegate.swift */,
 				F8405EE31C2A8B2D009657CB /* ViewController.swift */,
 				F8405EE51C2A8B2D009657CB /* Main.storyboard */,
+				F8405F111C2A8E7F009657CB /* RecipeDetailViewController.swift */,
 				F8405EE81C2A8B2D009657CB /* Assets.xcassets */,
 				F8405EEA1C2A8B2D009657CB /* LaunchScreen.storyboard */,
 				F8405EED1C2A8B2D009657CB /* Info.plist */,
+				F8405F0F1C2A8BCE009657CB /* Recipe.swift */,
 			);
 			path = Prasadam;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8405F101C2A8BCE009657CB /* Recipe.swift in Sources */,
 				F8405EE41C2A8B2D009657CB /* ViewController.swift in Sources */,
+				F8405F121C2A8E7F009657CB /* RecipeDetailViewController.swift in Sources */,
 				F8405EE21C2A8B2D009657CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

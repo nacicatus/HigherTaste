@@ -8,18 +8,42 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class RecipeTableViewController: UITableViewController {
+    
+    let allRecipes = Recipe.allRecipes
+    
+    // MARK: Table View Data Source
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.allRecipes.count
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("RecipeCell")!
+        let recipe = self.allRecipes[indexPath.row]
+        
+        // Set the name
+        cell.textLabel?.text = recipe.name
+        
+        // set the image
+        let cellImg : UIImageView = UIImageView(frame: CGRectMake(2, 2, 50, 50))
+        cellImg.image = UIImage(named: recipe.image)
+        cell.addSubview(cellImg)
+        
+        //cell.imageView?.image = UIImage(named: recipe.image)
+       
+        
+        return cell
     }
-
+    
+    
+    // MARK: UITableView Delegate
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let detailController = self.storyboard!.instantiateViewControllerWithIdentifier("RecipeDetailViewController") as! RecipeDetailViewController
+        detailController.recipe = self.allRecipes[indexPath.row]
+        self.navigationController!.pushViewController(detailController, animated: true)
+        
+    }
+    
 
 }
-
